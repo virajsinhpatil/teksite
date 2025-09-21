@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>teksite</title>
+    <link rel="stylesheet" href="assets/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&family=David+Libre:wght@400;500;700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <div class="logo">
+            <img src="assets/images/teksite-logo.png" alt="logo">
+        </div>
+        <nav class="nav">
+            <ul class="menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="products.html">Products</a></li>
+                <li><a href="cart.html">Cart(<span id="cart-count">0</span>)</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section class="hero">
+        <div class="info">
+            <h2>Hot Deal</h2>
+            <h1>Sound That Moves With You</h1>
+            <button class="hero-btn" onclick="window.location.href='products.html'">Shop Now</button>
+        </div>
+        <div class="imghero">
+            <img src="assets/images/hero-product.png" alt="hero">
+        </div>
+    </section>
+    <section class="fetured-products">
+        <h2>Featured Products</h2>
+        <div class="fetured-container">
+            <div class="product-card">
+                <img src="assets/images/headphone.jpg" alt="Headphone">
+                <h3>Headphone</h3>
+                <p>MRP 2000</p>
+            </div>
+            <div class="product-card">
+                <img src="assets/images/buds.jpg" alt="Buds">
+                <h3>Buds</h3>
+                <p>MRP 1500</p>
+            </div>
+            <div class="product-card">
+                <img src="assets/images/speaker.jpg" alt="Bluetooth Speaker">
+                <h3>Bluetooth Speaker</h3>
+                <p>MRP 2500</p>
+            </div>
+        </div>
+        <div class="view-btn">
+            <button onclick="window.location.href='products.html'">View All Products</button>
+        </div>
+    </section>
+    <footer class="site-footer">
+        <div class="footer-top">
+            <div class="logo">
+                <img src="assets/images/teksite-logo.png" alt="">
+            </div>
+            <div class="footer-links">
+                <h2>Quick links</h2>
+                <ul class="footer-nav" type="none">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="products.html">Products</a></li>
+                    <li><a href="cart.html">Cart</a></li>
+                </ul>
+            </div>
+            <div class="footer-socials">
+                <h2>Socials</h2>
+                <ul class="footer-social-list" type="none">
+                    <li>instagram</li>
+                    <li>facebook</li>
+                    <li>twitter</li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>Copyright ©2025 Teksite. All Rights Reserved.</p>
+        </div>
+    </footer>
+    <script src="assets/myjs.js"></script>
+</body>
+</html>
